@@ -21,6 +21,7 @@ public class MyActivity extends ActionBarActivity {
 
 
     }
+    //test
 // this a test commit lest see how works
 // a second commit testing that
     @Override

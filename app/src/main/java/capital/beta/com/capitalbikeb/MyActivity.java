@@ -7,21 +7,22 @@ import android.view.MenuItem;
 
 
 public class MyActivity extends ActionBarActivity {
-
+    String data;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
         if (savedInstanceState!=null){
 
-            String data= "i liked";
-               data="ar";
+             data= "i liked";
+
+
         }
 
 
     }
 // this a test commit lest see how works
-
+// a second commit testing that
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
